@@ -28,6 +28,15 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+      "type": "composer",
+      "url": "https://wp-languages.github.io",
+      "only": [
+          "koodimonni-language/*",
+          "koodimonni-plugin-language/*",
+          "koodimonni-theme-language/*"
+      ]
     }
   ],
   "require": {
